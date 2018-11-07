@@ -1,0 +1,7 @@
+User:
+
+signup : POST /user ->{email, name}
+login:  POST /login -> {email,password}
+return user info: GET /user/123<- {email,name,rating}
+edit user : PUT /user/123 -> {password}
+update intrest: POST/event123/vote  {user_id, up vote/down vote}
