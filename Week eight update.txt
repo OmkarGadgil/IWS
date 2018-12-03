@@ -1,0 +1,12 @@
+In this week I continued the work with JWT authentication for the login form and also i worked with the events created and the ratings page. Also Eventslist was integrated with the backend to show the list of events on the front end.
+
+Problems Faced: The basic login template created had state issues which prevented from successful implementation of the login form for the application. This also created issues with the Register form in the database. 
+
+Solution: I resolved the issue by changing the constructor for the initialozation which was creating the state transition issues. the state: props property is required for this in the login components of the src files. Also the register form required the same constructor for its initialization and storage into the database. Following resources helped with resolve the JWT state isssue.
+
+
+1)https://github.com/feathersjs/authentication/issues/411
+2)https://github.com/themikenicholson/passport-jwt/issues/117
+3) https://appdividend.com/2018/07/18/react-redux-node-mongodb-jwt-authentication/
+4) https://auth0.com/blog/secure-your-react-and-redux-app-with-jwt-authentication/
+5) https://codeburst.io/jwt-to-authenticate-servers-apis-c6e179aa8c4e
