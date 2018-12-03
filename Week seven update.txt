@@ -1,0 +1,10 @@
+In this week I have added the login functionality for the app. The authentication is handled by react JWT (JSON web token) Auth0 protocol. This handles the successful login for the registered students. Also I worked on the registration form and store it in the database which wwould be helpful in future for login process.
+
+Problems Faced: I had to learn the JWT basics and their working for adding the code into the login form. The most important thing while learning JWT was its payload handling. Also as this is state based protocol Redux had to be implemented for handling state containers. 
+
+Solution: With the help of supporting docs from the React-Redux framework and the Auth0 protocol from the JWT help doc i designed a basic login page with the help fo the template code.Following resources help me setup the necessary authentication and login form.
+
+1) https://appdividend.com/2018/07/18/react-redux-node-mongodb-jwt-authentication/
+2) https://auth0.com/blog/secure-your-react-and-redux-app-with-jwt-authentication/
+3) https://hptechblogs.com/using-json-web-token-react/
+4) https://codeburst.io/jwt-to-authenticate-servers-apis-c6e179aa8c4e
