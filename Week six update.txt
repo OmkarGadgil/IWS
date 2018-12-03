@@ -1,0 +1,11 @@
+During this week I worked on the front end of the application using React framework and its associated props.
+
+Problems faced: The major problem faced was with the page scrolling. The page lagged while scrolling and the scroll lenght was buggy. Also the point at which a page scrolled crashed randomly. This was the major concern to be resolved for smooth transitioning and rendering of the web page. Other problems with the integration of the scripts within the app.js file.
+
+Solution: After going through the internet for possible solutions and answers, I found out that the rendering was affected due to miscalculations in the height for the side bar navifgation. This was corrected by changing the height and pixel calculation formula in the stylesheet. The crashing issue was due to minor coding typo which resulted in infinite loop causing it to crash. The following references helped with get past the issues and bugs.
+
+1) https://www.npmjs.com/package/react-scroll
+2)https://developer.mozilla.org/en-US/docs/Web/API/Element/scrollTop
+3) https://developer.mozilla.org/en-US/docs/Web/API/Element/scrollIntoView
+4) https://stackoverflow.com/questions/30862921/avoid-re-rendering-on-scroll-and-increase-performance-in-a-react-web-application
+ 
