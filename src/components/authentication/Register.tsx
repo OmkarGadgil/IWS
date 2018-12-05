@@ -48,7 +48,7 @@ class RegisterComponent extends React.Component<registerProps, registerState> {
     render() {
         return <div className="auth-form signup">
             <h2>Sign Up</h2>
-            <span>To join EventHawk, enter your full name and choose a password.</span>
+            <span>For SignUp enter your full name and choose a password.</span>
             <form onSubmit={e => this.onSubmit(e)}>
                 <div className="auth-signup-name">
                     <input type="text" ref="register-first-name" placeholder="First Name" onChange={e => this.setState({firstName: e.target.value})} />
@@ -57,7 +57,7 @@ class RegisterComponent extends React.Component<registerProps, registerState> {
                 <input type="password" className="register-pass" placeholder="Password" onChange={e => this.setState({password: e.target.value})} />
                 <input type="submit" value="Sign Up" />
             </form>
-            <span className="auth-switch">Already a member? <Link to="/login">Sign in</Link></span>
+            <span className="auth-switch">Have an account? <Link to="/login">Sign in</Link></span>
         </div>
     }
 }
