@@ -61,7 +61,7 @@ class LoginComponent extends React.Component<loginProps, loginState> {
                     <i className="fa fa-circle-o-notch fa-spin fa-3x fa-fw"></i>
                 </span>
             }
-            <span className="auth-switch">New to EventHawk? <Link to="/signup">Sign Up</Link></span>
+            <span className="auth-switch">New to Hobnob? <Link to="/signup">Sign Up</Link></span>
         </div>
     }
 };
