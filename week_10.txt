@@ -1,0 +1,16 @@
+In this week I Worked on the testing of the application developed.
+For testing purpose I used Postman API services.
+The testing was done for the authentication, events creation, tickets generation, reviews.
+POST method was utilized to insert into the database which is hosted on the Mlabs server.
+JWT token generation was tested for its payload value and bearer token id from POSTMAN app.
+
+Problems Faced: There was authentication issue with the user creation.
+
+Solution: It was found that the mongoid hosted on the Server had access rights issue. necessary permission were granted after which the user creation was successful.
+
+Following resources were useful for this.
+1)https://github.com/feathersjs/authentication/issues/411
+2)https://github.com/themikenicholson/passport-jwt/issues/117
+3) https://appdividend.com/2018/07/18/react-redux-node-mongodb-jwt-authentication/
+4) https://auth0.com/blog/secure-your-react-and-redux-app-with-jwt-authentication/
+5) https://codeburst.io/jwt-to-authenticate-servers-apis-c6e179aa8c4e
