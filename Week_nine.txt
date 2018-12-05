@@ -1,0 +1,3 @@
+In this week I worked with the deployment of the project.
+The project is deployed on Heroku web server. Along with that the necessary API code is also hosted on Heroku. Heroku setup process was fairly simple as it updates concurrently from the Github repository. Database was set up on Mlabs server which provides MongoDB required for the project. 
+There was no problem faced during the deployment of the project.
